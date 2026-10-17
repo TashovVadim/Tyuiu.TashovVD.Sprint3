@@ -8,14 +8,14 @@ namespace Tyuiu.TashovVD.Sprint3.Task0.V12.Lib
         {
 
             double i;
-            double sumres = 0;
+            double sumres = 1;
 
             for (i = startValue; i <= stopValue; i++)
             {
-                sumres += (Math.Pow(value, i) + (1 / (i + 1)));
+                sumres *= (Math.Pow(value, i) + (1 / (i + 1)));
             }
 
-            return sumres;
+            return Math.Round(sumres, 3);
             
         }
     }
