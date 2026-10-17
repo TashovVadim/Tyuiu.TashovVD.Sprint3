@@ -7,13 +7,13 @@ namespace Tyuiu.TashovVD.Sprint3.Task2.V10.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double sumres = 1;
+            double i = startValue;
 
             do
             {
-                sumres *= (Math.Pow(value, startValue) + (1 / (startValue + 1)));
-                startValue++;
-            }
-            while (startValue <= stopValue);
+                sumres *= (Math.Pow(value, i) + (1 / (i + 1)));
+                i++;
+            } while (i <= stopValue);
 
             return Math.Round(sumres, 3);
         }
