@@ -7,7 +7,7 @@ namespace Tyuiu.TashovVD.Sprint3.Task0.V12.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
 
-            int i;
+            double i;
             double sumres = 0;
 
             for (i = startValue; i <= stopValue; i++)
