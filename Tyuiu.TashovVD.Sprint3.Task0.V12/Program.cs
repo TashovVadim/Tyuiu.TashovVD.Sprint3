@@ -27,7 +27,7 @@ namespace Tyuiu.TashovVD.Sprint3.Task0.V12
             startValue = 1;
             endValue = 13;
 
-            Console.WriteLine("Старт шага t = " + value);
+            Console.WriteLine("Переменная t = " + value);
             Console.WriteLine("Конец шага k = " + startValue);
             Console.WriteLine("Старт шага k = " + endValue);
 
