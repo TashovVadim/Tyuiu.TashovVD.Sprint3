@@ -11,7 +11,7 @@ namespace Tyuiu.TashovVD.Sprint3.Task2.V10.Test
             int value = 1;
             int startValue, endValue;
             startValue = 1;
-            endValue = 3;
+            endValue = 2;
             double wait = 2;
             DataService ds = new DataService();
             var res = ds.GetMultiplySeries(value, startValue, endValue);
