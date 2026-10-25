@@ -10,7 +10,7 @@ namespace Tyuiu.TashovVD.Sprint3.Task5.V23.Lib
 
             for (int i = startValue1; i <= stopValue1; i++)
             {
-                for (int k = startValue2; k < stopValue2; k++)
+                for (int k = startValue2; k <= stopValue2; k++)
                 {
                     double y = (Math.Pow(x, k) + 2) * Math.Cos(k);
                     res += y;
