@@ -12,15 +12,12 @@ namespace Tyuiu.TashovVD.Sprint3.Task7.V1.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
+                if ((x + 1.2) == 0)
                 {
                     res[count] = 0;
                 }
-                else
-                {
                     double y = (Math.Sin(x) / (x + 1.2)) + Math.Cos(x) * 7 * x - 2;
                     res[count] = Math.Round(y, 2);
-                }
 
                 count++;
             }
