@@ -21,7 +21,7 @@ namespace Tyuiu.TashovVD.Sprint3.Task7.V1.Lib
 
                 count++;
             }
-
+            
             return res;
         }
     }
