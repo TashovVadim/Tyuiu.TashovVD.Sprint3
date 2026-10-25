@@ -23,9 +23,6 @@ namespace Tyuiu.TashovVD.Sprint3.Task4.V10
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string value = "plkjjdw cvjkl";
-            char item = 'j';
-
             Console.WriteLine("Начало отрезка: ");
             int startValue = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Конец отрезка: ");
